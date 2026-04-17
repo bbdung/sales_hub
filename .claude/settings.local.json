@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(jar tf *)",
+      "Bash(grep \"\\\\.class$\")",
+      "Bash(unzip -l ~/.m2/repository/com/apus/base/3.1.0.new/base-3.1.0.new.jar)",
+      "Bash(awk '{print $4}')",
+      "Bash(unzip -p ~/.m2/repository/com/apus/base/3.1.0.new/base-3.1.0.new.jar META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports)",
+      "Bash(unzip -p ~/.m2/repository/com/apus/base/3.1.0.new/base-3.1.0.new.jar META-INF/spring.factories)",
+      "Bash(unzip -p ~/.m2/repository/com/apus/base/3.1.0.new/base-3.1.0.new.jar BOOT-INF/classes/com/apus/base/configuration/LocaleConfiguration.class)",
+      "Bash(cd /tmp)",
+      "Bash(unzip -p ~/.m2/repository/com/apus/base/3.1.0.new/base-3.1.0.new.jar BOOT-INF/classes/com/apus/base/messaging/KafkaDefaultConfiguration.class)",
+      "Bash(javap -c KafkaDefaultConfiguration.class)",
+      "Bash(javap KafkaDefaultConfiguration.class)",
+      "Bash(javap LocaleConfiguration.class)",
+      "Bash(javap /tmp/KafkaDefaultConfiguration.class)",
+      "Bash(\"/c/Program Files/Java/jdk-23/bin/javap.exe\" /tmp/KafkaDefaultConfiguration.class)",
+      "Bash(\"/c/Program Files/Java/jdk-23/bin/javap.exe\" /tmp/LocaleConfiguration.class)",
+      "Bash(xargs -I{} sh -c '\"{}\" -version 2>&1 | head -1 && echo \"{}\"')",
+      "Bash(/c/Program Files/Java/jdk-25/bin/javap.exe *)",
+      "Bash(\"/c/Program Files/Java/jdk-25/bin/javap.exe\" -c BaseLocaleConfiguration.class)",
+      "Bash(\"/c/Program Files/Java/jdk-25/bin/javap.exe\" -verbose KDC.class)",
+      "Bash(rm \"D:/GIT_APUS_INTERNAL/sales-hub/src/main/java/com/apus/salehub/config/FeignConfiguration.java\")",
+      "Bash(rm \"D:/GIT_APUS_INTERNAL/sales-hub/src/main/java/com/apus/salehub/config/LocaleConfiguration.java\")",
+      "Bash(grep -v \"\\\\\\\\$\")",
+      "Read(//c/Program Files/Java//**)",
+      "Read(//c/Program Files/**)",
+      "Bash(where java *)",
+      "Bash('/c/Program Files/Java/jdk-25/bin/jar.exe' tf C:/Users/User/.m2/repository/com/apus/base/3.1.1.new/base-3.1.1.new.jar)",
+      "Bash(grep -v \"/$\")",
+      "Bash('/c/Program Files/Java/jdk-25/bin/jar.exe' xf C:/Users/User/.m2/repository/com/apus/base/3.1.1.new/base-3.1.1.new.jar application.yaml -C /tmp/)",
+      "Bash('/c/Program Files/Java/jdk-25/bin/jar.exe' xf C:/Users/User/.m2/repository/com/apus/base/3.1.1.new/base-3.1.1.new.jar application.yaml)",
+      "Bash(\"/c/Program Files/Java/jdk-25/bin/jar.exe\" xf \"C:/Users/User/.m2/repository/com/apus/base/3.1.1.new/base-3.1.1.new.jar\" application.yaml)",
+      "Bash(powershell *)"
+    ]
+  }
+}

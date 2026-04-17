@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.apus</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.18.new</version>
+    </parent>
+    <repositories>
+        <repository>
+            <id>apus-central</id>
+            <url>http://194.233.82.115:8081/repository/apus.product.core-group/</url>
+        </repository>
+    </repositories>
+    <groupId>com.apus.backend</groupId>
+    <artifactId>sale-hub-service</artifactId>
+    <version>1.0</version>
+    <name>sale-hub-service</name>
+    <description>Sale Hub Service</description>
+    <dependencies>
+        <dependency>
+            <groupId>com.apus</groupId>
+            <artifactId>common</artifactId>
+            <version>1.1.30.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.apus</groupId>
+            <artifactId>base</artifactId>
+            <version>3.1.1.new</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>5.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.18.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.rometools</groupId>
+            <artifactId>rome</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+    </dependencies>
+</project>
